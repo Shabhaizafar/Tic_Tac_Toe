@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.vs{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/028/824/564/small/vs-letters-versus-png.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    rotate: 10deg;
+
+}
+section{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    width: 606px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.you{
+    margin-left: 40px;
+}
+article{
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    width: 200px;
+    height: 200px;
+   border-radius: 50%;
+    margin-bottom: 50px;
+}
+#demo,#demo2{
+    left: 0px;
+    background-color: black;
+}
+button{
+   width: 100px; 
+   height: 100px;
+   border: 1px solid black;
+   border-radius: 50%;
+   margin-bottom: 50px;
+}
+.rock{
+    background-image: url("rock.jpg");
+    background-size: 100% 100%;
+}
+.paper{
+    background-image: url("paper.jpg");
+    background-size: 100% 100%;
+}
+.scissors{
+   background-image: url("scissors.jpg");
+   background-size: 100% 100%; 
+}
+aside{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 0px;
+    right: 0px;
+}
+h6{
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    top: 60%;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-top: 30px;
+    animation-name: text;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes text {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+.win{
+    color: white;
+}
+.loose{
+    color: white;
+}
+.draw{
+    color: white;
+}
